@@ -1,0 +1,19 @@
+Hacer un servidor tcp en java, c o c++ (elegir el lenguaje en que se sientan más comodos) y hacer el cliente que se comunique con el servidor.
+
+El cliente podrá enviarle dos comandos al servidor:
+
+1. Agregar elemento al arreglo (add).
+
+2. Eliminar un elemento del arreglo (remove).
+
+En java puede ser un ArrayList (no usar colecciones que sean thread safe).
+
+Cuando el servidor reciba una petición deberá crear un thread para atender la petición ejecutando una de las dos acciones:
+
+Recibe el comando add, deberá agregar el elemento al arreglo e imprimir su contenido.
+
+Recibe el comando remove deberá eliminar el elemento del arreglo e imprimir su contenido.
+
+El cliente deberá ser capaz de comunicarse con el servidor y enviar los comandos indicados.
+
+IMPORTANTE: no usar frameworks.		
